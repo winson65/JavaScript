@@ -1,0 +1,17 @@
+/* 
+Made by Winson Yu
+CSS file for the Digital Clock
+This file must be in the "css" directory 
+*/
+
+body {
+    font-family: 'Lato';
+    margin-top: 200px;
+    text-align: center;
+    color: white;   
+  }
+  
+  #clock {
+    font-weight: 300;
+    font-size: 100px;
+  }
