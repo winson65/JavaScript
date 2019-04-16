@@ -9,7 +9,7 @@ var hexColor = document.getElementById('hex-color');
 
 function hexClock() {
   var time = new Date();
-  var hours = (time.getHours()).toString();
+  var hours = time.getHours().toString();
   var minutes = time.getMinutes().toString();
   var seconds = time.getSeconds().toString();
 
@@ -26,7 +26,7 @@ function hexClock() {
   }
 
   var clockStr = hours + ' : ' + minutes + ' : ' + seconds;
-  var hexColorStr = '#' + hours + minutes + seconds;
+  var hexColorStr = 'RGB(' + hours + "," + minutes + "," + seconds + ")";
 
   clock.textContent = clockStr;
   hexColor.textContent = hexColorStr;
